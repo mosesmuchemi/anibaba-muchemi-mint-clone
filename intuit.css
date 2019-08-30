@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DfDfDf;
+}
+
+form {
+  border:1px solid #ccc;
+}
 .sign-in-part{
     width: 23%;
     float: right;
@@ -36,9 +48,6 @@
     padding: 20px;
     margin-top: 20px;
 }
-
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
