@@ -36,7 +36,7 @@ form {
 .img_fix{
     margin: 0px;
     padding: 0px;
-    width: 150px;
+    width: 120px;
     height: 80px;
 }
 
@@ -78,8 +78,30 @@ button {
   opacity: 0.9;
 }
 
+#pcreateAccountL{
+  float: left;
+}
+#pcreateAccountR{
+  float: right;
+}
 
+#btn{
+  width: 100px;
+}
 
+#midTop{
+  margin: auto;
+}
+#pcreate{
+  font-size: 22px; 
+  text-align: center; 
+  font-weight: bold;
+}
+
+#psub{
+  font-size: 12; 
+  text-align: center;
+}
 /* Add padding to container elements */
 .container {
   padding: 16px;
