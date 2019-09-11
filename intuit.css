@@ -1,54 +1,54 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #DfDfDf;
+  background-color: #dfdfdf;
 }
 
 form {
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 .sign-in-part {
-    width: 23%;
-    float: right;
-    display: block;
-    overflow: hidden;
-    margin: 10px;
+  width: 23%;
+  float: right;
+  display: block;
+  overflow: hidden;
+  margin: 10px;
 }
 
 .center {
-    margin: auto;
-    width: 40%;
-    padding: 40px;
+  margin: auto;
+  width: 40%;
+  padding: 40px;
 }
 
 .centerbase {
-    margin: auto;
-    width: 80%;
-    padding: 10px;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .top_image {
-    padding-bottom: -20px;
+  padding-bottom: -20px;
 }
 
 .img_fix {
-    margin: 0px;
-    padding: 0px;
-    width: 120px;
-    height: 80px;
+  margin: 0px;
+  padding: 0px;
+  width: 120px;
+  height: 80px;
 }
 
 .center .form-div {
-    background-color: #fff;
-    border: 1px;
-    display: block;
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: #fff;
+  border: 1px;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 /* Full-width input fields */
@@ -57,20 +57,20 @@ input[type=text], input[type=password] {
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border:1px solid #cdcdcd;
+  border: 1px solid #cdcdcd;
   background: #fff;
 }
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #fff;
-  display:block;
-  background:none;
-  background-image:none;
+  display: block;
+  background: none;
+  background-image: none;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -97,13 +97,13 @@ button {
 }
 
 #pcreate {
-  font-size: 22px; 
-  text-align: center; 
+  font-size: 22px;
+  text-align: center;
   font-weight: bold;
 }
 
 #psub {
-  font-size: 12; 
+  font-size: 12;
   text-align: center;
 }
 
