@@ -1,7 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfdfdf;
-
 }
 
 .sign-in-part {
@@ -24,7 +23,7 @@ body {
   padding-top: 100px;
   width: auto;
 }
- 
+
 .top_image {
   padding-bottom: -20px;
 }
@@ -36,7 +35,7 @@ body {
   height: 80px;
 }
 
- .form-div {
+.form-div {
   background-color: #fff;
   border: 1px;
   display: block;
@@ -45,7 +44,7 @@ body {
   margin-top: 20px;
 }
 
- /*Set a style for all buttons */
+ /* Set a style for all buttons */
 button {
   background-color: #4caf50;
   color: white;
@@ -57,21 +56,12 @@ button {
   opacity: 0.9;
 }
 
-#btnSignup{
+#btnSignup {
   width: 100%;
   padding: 12px 1px;
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
-  /*
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  */
 }
 
 #pcreateAccountL {
@@ -101,7 +91,9 @@ button {
   text-align: center;
 }
 
-input[type=text], input[type=email], input[type=password] {
+input[type=text],
+input[type=email],
+input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -113,7 +105,7 @@ input[type=text], input[type=email], input[type=password] {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -126,13 +118,10 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
- #container {
+#container {
   width: 32%;
   margin: 0 auto;
   display: block;
-  margin: auto;
-  width: 450px;
   padding: 10px;
-  border: 1pt  solid rgb(11, 12, 10); 
+  border: 1ptso lid rgb(11, 12, 10); 
 }
-
