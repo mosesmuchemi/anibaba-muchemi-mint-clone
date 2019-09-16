@@ -1,8 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfdfdf;
-	height: 100px;
-	width: 100%;
+
 }
 
 .sign-in-part {
@@ -23,7 +22,7 @@ body {
 .centerbase {
   margin: auto;
   padding-top: 100px;
-  width: 80%;
+  width: auto;
 }
  
 .top_image {
@@ -59,9 +58,20 @@ button {
 }
 
 #btnSignup{
-  display: block;
-  width: 1300px;
-  margin: auto;
+  width: 100%;
+  padding: 12px 1px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  /*
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  */
 }
 
 #pcreateAccountL {
@@ -117,6 +127,8 @@ input[type=submit]:hover {
 }
 
  #container {
+  width: 32%;
+  margin: 0 auto;
   display: block;
   margin: auto;
   width: 450px;
@@ -124,10 +136,3 @@ input[type=submit]:hover {
   border: 1pt  solid rgb(11, 12, 10); 
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn,
-  .signupbtn {
-    width: 100%;
-  }
-}
