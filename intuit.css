@@ -44,7 +44,7 @@ body {
   margin-top: 20px;
 }
 
- /* Set a style for all buttons */
+/* Set a style for all buttons */
 button {
   background-color: #4caf50;
   color: white;
@@ -123,5 +123,5 @@ input[type=submit]:hover {
   margin: 0 auto;
   display: block;
   padding: 10px;
-  border: 1ptso lid rgb(11, 12, 10); 
+  border: 1px solid rgb(11, 12, 10); 
 }
