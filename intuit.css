@@ -1,14 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfdfdf;
-}
-
-form {
-  border: 1px solid #ccc;
+	height: 100px;
+	width: 100%;
 }
 
 .sign-in-part {
@@ -23,14 +17,15 @@ form {
   margin: auto;
   width: 40%;
   padding: 40px;
+  height: auto;
 }
 
 .centerbase {
   margin: auto;
+  padding-top: 100px;
   width: 80%;
-  padding: 10px;
 }
-
+ 
 .top_image {
   padding-bottom: -20px;
 }
@@ -42,7 +37,7 @@ form {
   height: 80px;
 }
 
-.center .form-div {
+ .form-div {
   background-color: #fff;
   border: 1px;
   display: block;
@@ -51,25 +46,7 @@ form {
   margin-top: 20px;
 }
 
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-  width: 33%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: 1px solid #cdcdcd;
-  background: #fff;
-}
-
-input[type=text]:focus,
-input[type=password]:focus {
-  background-color: #fff;
-  display: block;
-  background-image: none;
-}
-
-/* Set a style for all buttons */
+ /*Set a style for all buttons */
 button {
   background-color: #4caf50;
   color: white;
@@ -79,6 +56,12 @@ button {
   cursor: pointer;
   width: 33%;
   opacity: 0.9;
+}
+
+#btnSignup{
+  display: block;
+  width: 1300px;
+  margin: auto;
 }
 
 #pcreateAccountL {
@@ -108,16 +91,37 @@ button {
   text-align: center;
 }
 
-/* Add padding to container elements */
-.container {
-  padding: 16px;
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ #container {
+  display: block;
+  margin: auto;
+  width: 450px;
+  padding: 10px;
+  border: 1pt  solid rgb(11, 12, 10); 
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
