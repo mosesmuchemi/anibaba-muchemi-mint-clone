@@ -1,6 +1,6 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.body_style {
   background-color: #dfdfdf;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sign-in-part {
@@ -21,11 +21,14 @@ body {
 .centerbase {
   margin: auto;
   padding-top: 100px;
-  width: auto;
+  font-size: smaller;
+  width: 55%;
+  padding-bottom: 20px;
 }
 
 .top_image {
   padding-bottom: -20px;
+  padding-left: 40px;
 }
 
 .img_fix {
@@ -35,7 +38,7 @@ body {
   height: 80px;
 }
 
-.form-div {
+ .form-div {
   background-color: #fff;
   border: 1px;
   display: block;
@@ -44,7 +47,7 @@ body {
   margin-top: 20px;
 }
 
-/* Set a style for all buttons */
+ /*Set a style for all buttons */
 button {
   background-color: #4caf50;
   color: white;
@@ -56,20 +59,29 @@ button {
   opacity: 0.9;
 }
 
-#btnSignup {
+#btnSignup{
   width: 100%;
-  padding: 12px 1px;
+  padding: 15px 10px;
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
+  padding-bottom: 40px;
 }
+
+span{
+  padding-left: 10px;
+  font-size: smaller;
+}
+
 
 #pcreateAccountL {
   float: left;
+  font-size: small;
 }
 
 #pcreateAccountR {
   float: right;
+  padding-right: 15px;
 }
 
 #btn {
@@ -91,12 +103,10 @@ button {
   text-align: center;
 }
 
-input[type=text],
-input[type=email],
-input[type=password] {
-  width: 100%;
+input[type=text], input[type=email], input[type=password] {
+  width: 95%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 8px 10px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -105,7 +115,7 @@ input[type=password] {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4caf50;
+  background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -118,10 +128,36 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#container {
-  width: 32%;
+label {
+  padding-left: 10px;
+  font-weight: normal !important;
+}
+
+#tnc{
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  padding-bottom: 30px;
+  opacity: 0.8;
+}
+
+#captcha{
+  opacity: 0.6;
+  text-align: center;
+  font-size: smaller;
+  background-color: #dfdfdf;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+ #container {
+  width: 30%;
   margin: 0 auto;
   display: block;
+  margin: auto;
   padding: 10px;
-  border: 1px solid rgb(11, 12, 10);
+  border: 1pt  solid rgb(11, 12, 10); 
+  background-color: #fff;
 }
