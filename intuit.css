@@ -4,7 +4,6 @@
 }
 
 .sign-in-part {
-  width: 23%;
   float: right;
   display: block;
   overflow: hidden;
@@ -27,8 +26,9 @@
 }
 
 .top_image {
-  padding-bottom: -20px;
-  padding-left: 40px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
 }
 
 .img_fix {
